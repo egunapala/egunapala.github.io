@@ -1,0 +1,29 @@
+title: Planet Reverie # title of website goes here
+description: > # this '>' allows you to add multiple lines below
+  Welcome to the best blog.
+permalink: ':title/'
+baseurl: "" # you don't really need this part
+url: "http://planetreverie.com" # nothing to see here either
+
+author: Eleanor Gunapala
+author-img: ellie.jpg # this implicitly refers to assets/img/ellie.jpg
+about-author: Unless someone like you cares a whole awful lot, nothing is going to get better. It's not. # self explanatory
+
+# I just set up these two, if you want more they can be added
+social-instagram: planet_reverie
+social-email: egunapala@gmail.com
+
+analytics: # you can set up google analytics here to monitor traffic and stuff
+
+# you can ignore all of this
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8 # this is the number of posts to show on the home page
+paginate_path: "/page/:num" # ignore this
+
+# ignore the following also
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
